@@ -1,0 +1,24 @@
+{
+    "name": "christiana/sitemap-bundle",
+    "description": "Bundle to generate sitemap routes",
+    "keywords": ["symfony","sitemap","bundle"],
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Salve Safari",
+            "email": "samft09@hotmail.fr",
+            "homepage": "https://christiana.be",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Christiana\\SitemapBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0.0"
+    }
+}
